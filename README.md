@@ -1,11 +1,8 @@
-# SWAGVASTRA
-An AI- fashion recommendations platform, it suggest the outfits based on the to ne of the body 
-
 # Swag Vastra - AI-Powered Fashion Recommendation System
 
 An intelligent fashion recommendation platform that uses computer vision and HSV color science to analyze skin tones and provide personalized outfit suggestions through an interactive multi-step wizard.
 
-##  Features
+## 🌟 Features
 
 ### Core Functionality
 - **AI Skin Tone Analysis**: MediaPipe Face Mesh + K-Means clustering for accurate tone detection (1-10 scale)
@@ -30,7 +27,7 @@ An intelligent fashion recommendation platform that uses computer vision and HSV
 - Real-time loading states
 - Mobile-friendly design
 
-##  How It Works
+## 🎯 How It Works
 
 ### Step 1: Upload Photo
 Upload a clear face photo for AI analysis
@@ -72,7 +69,7 @@ Browse personalized clothing and accessories with direct purchase links!
 - Scikit-learn
 - Flask
 
-##  Installation
+## 📦 Installation
 
 ### Prerequisites
 - Node.js 18+
@@ -120,7 +117,7 @@ See [ENHANCED_SETUP_GUIDE.md](./ENHANCED_SETUP_GUIDE.md) for complete installati
 ### Quick Start All Services
 See [START_ALL_SERVICES.md](./START_ALL_SERVICES.md) for running all services at once.
 
-## Documentation
+## 📚 Documentation
 
 - **[ENHANCED_SETUP_GUIDE.md](./ENHANCED_SETUP_GUIDE.md)** - Complete setup and configuration guide
 - **[START_ALL_SERVICES.md](./START_ALL_SERVICES.md)** - Quick start guide for all services
@@ -129,7 +126,7 @@ See [START_ALL_SERVICES.md](./START_ALL_SERVICES.md) for running all services at
 - **[PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md)** - Project file structure
 - **[SETUP_GUIDE.md](./SETUP_GUIDE.md)** - Original setup guide
 
-##  Color Science
+## 🎨 Color Science
 
 ### HSV Analysis
 - **Hue**: The actual color tone - identifies warm or cool undertones
@@ -200,7 +197,7 @@ swag-vastra/
     └── app.py
 ```
 
-##  Usage
+## 🎯 Usage
 
 1. Visit `http://localhost:3000`
 2. Click "Get Started"
@@ -213,7 +210,7 @@ swag-vastra/
 5. Browse personalized recommendations
 6. Click "Buy Now" to purchase items
 
-##  Testing
+## 🧪 Testing
 
 ### Test the Complete Flow
 1. Upload a test photo (clear face, good lighting)
@@ -230,7 +227,7 @@ swag-vastra/
 - **Occasion**: Party
 - **Gender**: Female
 
-## Production Deployment
+## 🚀 Production Deployment
 
 ### Build Frontend
 ```bash
@@ -251,7 +248,7 @@ cd ai-service
 gunicorn -w 4 -b 0.0.0.0:5000 app:app
 ```
 
-##  Environment Variables
+## 🔧 Environment Variables
 
 ### Backend (.env)
 ```
@@ -261,7 +258,7 @@ AI_SERVICE_URL=http://localhost:5000
 NODE_ENV=development
 ```
 
-##  Troubleshooting
+## 🐛 Troubleshooting
 
 ### AI Service Not Running
 ```
@@ -281,7 +278,7 @@ Error: No products in recommendations
 Solution: Run seed script: npm run seed
 ```
 
-## Future Enhancements
+## 📈 Future Enhancements
 
 - Google OAuth authentication
 - User profiles and saved recommendations
@@ -292,7 +289,7 @@ Solution: Run seed script: npm run seed
 - Style quiz
 - Seasonal recommendations
 
-## Contributing
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create feature branch
@@ -300,17 +297,17 @@ Solution: Run seed script: npm run seed
 4. Push to branch
 5. Open pull request
 
-##  License
+## 📄 License
 
 MIT License
 
-##  Credits
+## 🙏 Credits
 
 - MediaPipe by Google
 - Color science research
 - Fashion industry best practices
 
-##  Support
+## 📞 Support
 
 For issues or questions:
 1. Check documentation files
@@ -320,7 +317,6 @@ For issues or questions:
 
 ---
 
-**Made with  for fashion enthusiasts**
+**Made with ❤️ for fashion enthusiasts**
 
 Visit the app at `http://localhost:3000` and discover your perfect style! 🎨👗✨
-
